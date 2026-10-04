@@ -8,6 +8,8 @@ Course: Web Technologies
 
 Open "index.html" in a browser. All five tasks are on one page. Keep the css and vendor folders next to it. No installation or internet connection is needed because Bootstrap is stored locally.
 
+Boxes and project cards use one column below 768px, two columns at 768-1199px, and three columns from 1200px. The tablet screenshots use a width of 1032px, matching the iPad Pro 13 preset. Screenshots show complete task sections.
+
 ## Part 1: Media Queries
 
 ### Task 0: Responsive Typography
@@ -16,7 +18,7 @@ Mobile (390px):
 
 ![Task 0 on mobile](screenshots/task-0-mobile.png)
 
-Tablet (820px):
+Tablet (1032px):
 
 ![Task 0 on tablet](screenshots/task-0-tablet.png)
 
@@ -31,7 +33,7 @@ Mobile (390px):
 
 ![Task 1 on mobile](screenshots/task-1-mobile.png)
 
-Tablet (820px):
+Tablet (1032px):
 
 ![Task 1 on tablet](screenshots/task-1-tablet.png)
 
@@ -47,7 +49,7 @@ Mobile (390px):
 
 ![Task 2 on mobile](screenshots/task-2-mobile.png)
 
-Tablet (820px):
+Tablet (1032px):
 
 ![Task 2 on tablet](screenshots/task-2-tablet.png)
 
@@ -65,7 +67,7 @@ Mobile menu open:
 
 ![Task 3 with its mobile menu open](screenshots/task-3-mobile-menu.png)
 
-Tablet (820px):
+Tablet (1032px):
 
 ![Task 3 on tablet](screenshots/task-3-tablet.png)
 
@@ -81,7 +83,7 @@ Mobile (390px):
 
 ![Task 4 on mobile](screenshots/task-4-mobile.png)
 
-Tablet (820px):
+Tablet (1032px):
 
 ![Task 4 on tablet](screenshots/task-4-tablet.png)
 
@@ -100,7 +102,7 @@ Desktop (1280px):
 
 The page uses HTML, CSS media queries and Bootstrap 5.3.8. Tasks 0 and 1 use custom CSS. Tasks 2–4 use Bootstrap for the grid and navbar. The only JavaScript is Bootstrap's bundle for the collapsible menu.
 
-The HTML sections were added first, followed by the mobile styles and the 768px and 992px media queries. Bootstrap classes were added for the columns and navbar. The design uses a white background, grey borders and simple text.
+The HTML sections were added first, followed by the mobile styles and the 768px and 1200px media queries. Bootstrap classes were added for the columns and navbar. The design uses a white background, grey borders and simple text.
 
-The page was checked offline at eight widths from 320px to 1280px. The menu opens and closes, and all three links jump to sections on the same page. Task 1 was also checked with the Bootstrap stylesheet disabled; its layout still works. Screenshots show each task on mobile, tablet and desktop.
+The page was checked offline at nine widths from 320px to 1280px. The menu opens and closes, and all three links jump to sections on the same page. Task 1 was also checked with the Bootstrap stylesheet disabled; its layout still works. Screenshots show each task on mobile, tablet and desktop.
 
