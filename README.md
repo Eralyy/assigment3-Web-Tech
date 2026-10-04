@@ -6,7 +6,7 @@ Course: Web Technologies
 
 ## How to open
 
-Open "index.html" in a browser. All five tasks are on one page. Keep the css and vendor folders next to it. No installation or internet connection is needed because Bootstrap is stored locally.
+Open "index.html" in a browser. All five tasks are on one page. Keep the css and bootstrap folders next to it. No installation or internet connection is needed because Bootstrap is stored locally.
 
 Boxes and project cards use one column below 768px, two columns at 768-1199px, and three columns from 1200px. The tablet screenshots use a width of 1032px, matching the iPad Pro 13 preset. Screenshots show complete task sections.
 
@@ -95,7 +95,7 @@ Desktop (1280px):
 
 - index.html: all five tasks.
 - css/style.css: custom styles and media queries.
-- vendor/bootstrap/: local Bootstrap CSS, JavaScript and license.
+- bootstrap/: local Bootstrap CSS and JavaScript.
 - screenshots/: mobile, tablet and desktop screenshots.
 
 ## Work summary
