@@ -95,7 +95,7 @@ Desktop (1280px):
 
 - index.html: all five tasks.
 - css/style.css: custom styles and media queries.
-- vendor/bootstrap/: local Bootstrap CSS, JavaScript and license.
+- bootstrap/: local Bootstrap CSS, JavaScript and license.
 - screenshots/: mobile, tablet and desktop screenshots.
 
 ## Work summary
