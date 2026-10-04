@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment 3 - Yerali Karkinbayev</title>
+  <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main class="page">
+    <h1>Assignment 3</h1>
+    <p>Yerali Karkinbayev, IT-2501</p>
+
+    <section class="task" id="task0">
+      <h2>Task 0: Responsive Typography</h2>
+      <h3>About me</h3>
+      <p>I study Computer Science at Astana IT University.</p>
+      <h3>My studies</h3>
+      <p>I am learning HTML, CSS and responsive design in Web Technologies.</p>
+    </section>
+
+    <section class="task" id="task1">
+      <h2>Task 1: Media Query Layout</h2>
+      <div class="boxes">
+        <div class="box">
+          <h3>Box 1</h3>
+          <p>HTML gives a webpage its structure.</p>
+        </div>
+        <div class="box">
+          <h3>Box 2</h3>
+          <p>CSS controls the style of the page.</p>
+        </div>
+        <div class="box">
+          <h3>Box 3</h3>
+          <p>Media queries change the layout for different screen widths.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="task" id="task2">
+      <h2>Task 2: Bootstrap Columns</h2>
+      <div class="container-fluid p-0">
+        <div class="row g-3">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="box h-100">
+              <h3>Column 1</h3>
+              <p>Full width on mobile.</p>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="box h-100">
+              <h3>Column 2</h3>
+              <p>Half of the row on tablet.</p>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="box h-100">
+              <h3>Column 3</h3>
+              <p>One third of the row on desktop.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio" aria-label="Portfolio">
+      <header class="task" id="task3">
+        <h2>Task 3: Bootstrap Navigation Bar</h2>
+        <nav class="navbar navbar-expand-lg" aria-label="Portfolio navigation">
+          <div class="container-fluid">
+            <span class="navbar-brand">YK</span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainMenu">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#task0">Tasks</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <div class="task" id="task4">
+        <h2>Task 4: Portfolio</h2>
+        <p class="portfolio-note">My projects from the Web Technologies course.</p>
+        <div class="row g-3">
+          <section class="col-12 col-lg-8" id="projects">
+            <h3>Projects</h3>
+            <div class="row g-3">
+              <div class="col-12 col-md-6 col-lg-4">
+                <article class="box h-100">
+                  <h4>Personal Page</h4>
+                  <p>Assignment 1: headings, lists, a table and a form.</p>
+                </article>
+              </div>
+              <div class="col-12 col-md-6 col-lg-4">
+                <article class="box h-100">
+                  <h4>Flexbox and Grid</h4>
+                  <p>Assignment 2: photo cards, a gallery and a portfolio.</p>
+                </article>
+              </div>
+              <div class="col-12 col-md-6 col-lg-4">
+                <article class="box h-100">
+                  <h4>Responsive Design</h4>
+                  <p>Assignment 3: media queries and Bootstrap columns.</p>
+                </article>
+              </div>
+            </div>
+          </section>
+
+          <aside class="col-12 col-lg-4" id="contact">
+            <div class="box">
+              <h3>About Me</h3>
+              <p>Yerali Karkinbayev<br>Computer Science student<br>Astana IT University</p>
+              <p>Group: IT-2501</p>
+              <h4>Contact</h4>
+              <p>GitHub: github.com/Eralyy</p>
+            </div>
+          </aside>
+        </div>
+      </div>
+
+      <footer class="site-footer">
+        Yerali Karkinbayev | Assignment 3
+      </footer>
+    </section>
+  </main>
+  <script src="vendor/bootstrap/bootstrap.bundle.min.js"></script>
+</body>
+</html>
