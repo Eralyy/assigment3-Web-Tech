@@ -6,9 +6,9 @@ Course: Web Technologies
 
 ## How to open
 
-Open "index.html" in a browser. All five tasks are on one page. Keep the css and bootstrap folders next to it. No installation or internet connection is needed because Bootstrap is stored locally.
+Open "index.html" in a browser. 
 
-Boxes and project cards use one column below 768px, two columns at 768-1199px, and three columns from 1200px. The tablet screenshots use a width of 1032px, matching the iPad Pro 13 preset. Screenshots show complete task sections.
+I showed all the possible ways of opening my site: mobile, tablet, dekstop.
 
 ## Part 1: Media Queries
 
@@ -95,14 +95,13 @@ Desktop (1280px):
 
 - index.html: all five tasks.
 - css/style.css: custom styles and media queries.
-- bootstrap/: local Bootstrap CSS and JavaScript.
+- vendor/bootstrap/: local Bootstrap CSS, JavaScript and license.
 - screenshots/: mobile, tablet and desktop screenshots.
 
 ## Work summary
 
-The page uses HTML, CSS media queries and Bootstrap 5.3.8. Tasks 0 and 1 use custom CSS. Tasks 2–4 use Bootstrap for the grid and navbar. The only JavaScript is Bootstrap's bundle for the collapsible menu.
+The page uses HTML, CSS media queries, and Bootstrap 5.3.8. Tasks 0–1 use custom CSS, while Tasks 2–4 use Bootstrap for the grid and navbar. The only JavaScript is used for the mobile menu.
 
-The HTML sections were added first, followed by the mobile styles and the 768px and 1200px media queries. Bootstrap classes were added for the columns and navbar. The design uses a white background, grey borders and simple text.
+The page was tested offline at 3 screen sizes from 390px to 1280px. The menu and section links work correctly. Task 1 also works without Bootstrap. Screenshots show the page on mobile, tablet, and desktop.
 
-The page was checked offline at nine widths from 320px to 1280px. The menu opens and closes, and all three links jump to sections on the same page. Task 1 was also checked with the Bootstrap stylesheet disabled; its layout still works. Screenshots show each task on mobile, tablet and desktop.
 
